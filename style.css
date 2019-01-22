@@ -1,0 +1,56 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: block;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+.big-column {
+	display: flex;
+	height: 80%;
+	width: 100%;
+}
+
+.lil-column {
+	height: 10%;
+	width: 100%;
+}
+
+.lil {
+	height: calc(100%/3);
+	width: 100%;
+}
+
+.square {
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.blue {
+	background-color: #1567DC;
+}
+
+.red {
+	background-color: #D9073F;
+}
+
+.orange {
+	background-color: #F22E03;
+}
+
+.liteblue {
+	background-color: #06C8F4;
+}
